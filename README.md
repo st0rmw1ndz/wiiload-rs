@@ -2,6 +2,9 @@
 
 Wiiload implementation in Rust.
 
+> [!NOTE]
+> This is my first Rust project. If you have any improvements, feel free to make a [pull request](https://github.com/st0rmw1ndz/wiiload-rs/pulls)!
+
 ## Usage
 
 ```
