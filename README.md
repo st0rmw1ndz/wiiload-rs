@@ -1,5 +1,7 @@
 # wiiload-rs
 
+![Rust](https://github.com/st0rmw1ndz/wiiload-rs/workflows/Rust/badge.svg)
+
 Wiiload implementation in Rust.
 
 > [!NOTE]
