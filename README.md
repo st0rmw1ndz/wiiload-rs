@@ -25,5 +25,6 @@ Options:
 
 ## Future Features
 
+- [ ] Checking for file compatibility (`.elf`, `.dol`, `.zip` only)
 - [ ] Saving information like IP address in a configuration file
 - [ ] Better descriptions in help menu
