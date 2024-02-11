@@ -1,0 +1,16 @@
+[package]
+name = "wiiload"
+version = "1.0.0"
+authors = ["frosty <inthishouseofcards@gmail.com>"]
+edition = "2021"
+description = "Wiiload implementation in Rust."
+readme = "README.md"
+repository = "https://github.com/st0rm1wndz/wiiload-rs/"
+license-file = "LICENSE"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+clap = { version = "4.5.0", features = ["cargo", "derive"] }
+exitcode = "1.1.2"
+eyre = "0.6.12"
