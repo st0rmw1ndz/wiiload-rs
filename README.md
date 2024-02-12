@@ -18,13 +18,13 @@ Usage: wiiload [OPTIONS] <IP> <PATH>
 
 Arguments:
   <IP>    IP address to connect to
-  <PATH>  Path to file to send (.dol, .elf, .zip)
+  <PATH>  Path to file to send
 
 Options:
-  -p, --port <PORT>                 Port to connect to [default: 4299]
-  -t, --timeout <TIMEOUT_DURATION>  Timeout seconds [default: 30]
-  -h, --help                        Print help
-  -V, --version                     Print version
+  -p, --port <PORT>        Port to connect to [default: 4299]
+  -t, --timeout <TIMEOUT>  Timeout duration in seconds [default: 30]
+  -h, --help               Print help
+  -V, --version            Print version
 ```
 
 ## Future Features
