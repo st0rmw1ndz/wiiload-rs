@@ -1,6 +1,6 @@
 [package]
 name = "wiiload"
-version = "1.0.0"
+version = "1.1.0"
 authors = ["frosty <inthishouseofcards@gmail.com>"]
 edition = "2021"
 description = "Wiiload implementation in Rust."
@@ -12,5 +12,6 @@ license-file = "LICENSE"
 
 [dependencies]
 clap = { version = "4.5.0", features = ["cargo", "derive"] }
-exitcode = "1.1.2"
+color-eyre = "0.6.2"
+enable-ansi-support = "0.2.1"
 eyre = "0.6.12"

@@ -1,6 +1,8 @@
 # wiiload-rs
 
-![Rust](https://github.com/st0rmw1ndz/wiiload-rs/workflows/Rust/badge.svg)
+[![Rust](https://github.com/st0rmw1ndz/wiiload-rs/workflows/Rust/badge.svg)](https://github.com/st0rmw1ndz/wiiload-rs/actions/workflows/rust.yml)
+[![Release](https://img.shields.io/github/v/release/st0rmw1ndz/wiiload-rs)](https://github.com/st0rmw1ndz/wiiload-rs/releases/latest)
+
 
 Wiiload implementation in Rust.
 
@@ -12,19 +14,22 @@ Wiiload implementation in Rust.
 ```
 Wiiload implementation in Rust.
 
-Usage: wiiload.exe <IP> <PATH>
+Usage: wiiload [OPTIONS] <IP> <PATH>
 
 Arguments:
-  <IP>    IP address
-  <PATH>  Path to file
+  <IP>    IP address to connect to
+  <PATH>  Path to file to send (.dol, .elf, .zip)
 
 Options:
-  -h, --help     Print help
-  -V, --version  Print version
+  -p, --port <PORT>                 Port to connect to [default: 4299]
+  -t, --timeout <TIMEOUT_DURATION>  Timeout seconds [default: 30]
+  -h, --help                        Print help
+  -V, --version                     Print version
 ```
 
 ## Future Features
 
-- [ ] Checking for file compatibility (`.elf`, `.dol`, `.zip` only)
+- [x] Better descriptions in help menu
+- [x] Checking for file compatibility (`.elf`, `.dol`, `.zip` only)
+  - [ ] Checking `.zip` structure to validate the Homebrew Channel will accept it
 - [ ] Saving information like IP address in a configuration file
-- [ ] Better descriptions in help menu
